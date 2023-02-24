@@ -1,0 +1,22 @@
+####################
+# History settings #
+####################
+export HISTSIZE='10000000'
+export HISTFILESIZE='10000000'
+export HISTTIMEFORMAT='%F %T :: '
+shopt -s histappend
+export PROMPT_COMMAND='history -a'
+export HISTCONTROL=ignoredups
+
+###############################
+# Up-arrow history completion #
+###############################
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
+
+########################
+# Custom Bash settings #
+########################
+export PS1="[\[\e[36m\]\u\[\e[m\]@\[\e[32m\]\h\[\e[m\]:\[\e[33m\]\w\[\e[m\]]\\$ "
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
