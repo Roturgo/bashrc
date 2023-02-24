@@ -7,7 +7,7 @@ Some Bash improvements to add into your `.bashrc` config file
 Append the configurations in `bashrc.txt` to your `.bashrc` configuration file in your home directory.
 
 # Improvements
-These are the quality of life enhancements contained in this `.bashrc` template
+These are the quality of life enhancements contained in this `.bashrc` template:
 
 ## History
 * Increase the history file size
