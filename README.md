@@ -1,6 +1,8 @@
 # bashrc
 Some Bash improvements to add into your `.bashrc` config file
 
+![A preview of the Bash shell when these .bashrc settings are applied](bash-screenshot.png "Bash Screenshot")
+
 # Instructions
 Append the configurations in `bashrc.txt` to your `.bashrc` configuration file in your home directory.
 
@@ -17,5 +19,3 @@ These are the quality of life enhancements contained in this `.bashrc` template
 
 ## Shell colors and prompt formatting
 * Make your default Bash prompt a bit easier to parse, colorize it, and colorize specific output in your shell
-
-![A preview of the Bash shell when these .bashrc settings are applied](bash-screenshot.png "Bash Screenshot")
